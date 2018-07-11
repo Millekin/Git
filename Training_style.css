@@ -1,0 +1,51 @@
+body
+{
+	margin : 0Px;
+	padding : 0px;
+	background-color : white;
+	color = white;
+	
+
+}
+
+
+
+
+
+
+.box
+{
+	display : flex;
+	justify-content : space-between;
+}
+
+.logo
+{
+	font-size : 3.0 em;
+	font-family : Arial;
+	font-weight : bold;
+	text-shadow : 2px 2px 0px orange;
+	color : red;
+	width : 20%;
+
+}
+
+.barre
+{
+	width : 50%
+}
+
+.login
+{
+	width : 15%
+	color : red
+}
+
+.connection
+{
+	display : in-line-block
+	width : 15%
+	color : red
+}
+
+
