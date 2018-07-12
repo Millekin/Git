@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Training website</title>
+		<link rel="stylesheet" href=" Training_style.css "/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+		<div class="box ">
+			<div class = "logo">SCW</div>
+			<nav>
+				<ul>
+					<li class="menu-html"><a href="menu.html">Menu</a>
+						<ul class="submenu">
+							<li><a href="#">Accueil</a></li>
+							<li><a href="#">Tendances</a></li>
+							<li><a href="#">Catégories de site-webs</a></li>
+							<li><a href="#">Historique</a></li>
+							<li><a href="#">Références</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div id="searchbar">
+				<form action="#" class="formulaire">
+				<input class="champ" type="searchbar	" placeholder="Name_of_the_site"/>
+				<input class="bouton" type="button" value="Search" />
+				</form>
+			</div>
+			
+			<div class = "connection"><p class="connection1"><a href="#">Register</a></p></div>
+			<div class = "login"><p class="login1"><a href="#">Login</a></p></div>
+		</div>
+		</header>
+		
+		<form method="post" action="#">
+		<fieldset>
+			<legend>Register</legend>
+			
+			<p>
+				<label for="nom">Name</label>
+				<input type="text" name = "nom" id="nom" autofocus required />
+			</p>
+			<p>
+				<label for="prenom">First name</label>
+				<input type="text" name = "prenom" id="prenom"/>
+			</p>
+			<p>
+				<label for="email">E-mail</label>
+				<input type="email" name = "email" id="email"/>
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input type="password" name ="password" id="password" />
+			</p>
+			<p>
+				<label for="password">Password check</label>
+				<input type="password" name ="password" id="password" />
+			</p>
+			<p>
+				<label for="country">Country</label>
+				<select name="country id=" country " >
+					<option value="france">France</option>
+					<option value="espagne">Espagne</option>
+					<option value="italie">Italie</option>
+					<option value="chine">Chine</option>
+					<option value="japon">Japon</option>
+				</select>
+			</p>
+			<input type="submit" value="Register" />
+			<p><a href="Training_login.html">Tu est déjà inscrit? Connecte-toi ici.</a></p>
+		</fieldset>
+		
+		<footer>
+			<div class="box3">
+				 <div class="ligne">Terms</div>
+				 <div class="ligne">Privacy</div>
+				 <div class="ligne">Security</div>
+				 <div class="logo">SCW</div>
+				 <div class="ligne">Status</div>
+				 <div class="ligne">Help</div>
+				 <div class="ligne">About</div>
+		    </div>
+		</footer>
+		</header>
